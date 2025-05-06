@@ -14,4 +14,5 @@ If you are developing a production application, we recommend using TypeScript wi
 To run locally:
 
 npm install
+
 npm run dev
