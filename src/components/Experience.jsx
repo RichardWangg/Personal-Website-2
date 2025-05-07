@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
+import { Element } from 'react-scroll';
 
 const Experience = () => (
-  <div className="section experience">
+  <Element name="experience" className="section">
     <motion.div
       initial={{ opacity: 0, scale: 0.85 }}
       whileInView={{ opacity: 1, scale: 1 }}
@@ -15,7 +16,7 @@ const Experience = () => (
         <li>Built 10+ personal projects</li>
       </ul>
     </motion.div>
-  </div>
+  </Element>
 );
 
 export default Experience;

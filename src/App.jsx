@@ -9,22 +9,25 @@ function App() {
   const lenis = useRef(null);
 
   useEffect(() => {
-    lenis.current = new Lenis({
+    const lenisInstance = new Lenis({
       duration: 1.2,
       easing: (t) => 1 - Math.pow(1 - t, 3),
       smooth: true,
       smoothTouch: true,
     });
 
+    lenis.current = lenisInstance;
+    window.lenis = lenisInstance;
+
     function raf(time) {
-      lenis.current.raf(time);
+      lenisInstance.raf(time);
       requestAnimationFrame(raf);
     }
 
     requestAnimationFrame(raf);
 
     return () => {
-      lenis.current.destroy();
+      lenisInstance.destroy();
     };
   }, []);
 
