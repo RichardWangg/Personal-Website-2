@@ -20,13 +20,15 @@ html.lenis body {
   pointer-events: none;
 }
 
-/* Main gradient wrapper for smooth background flow */
+/* Full-screen gradient background */
 .gradient-wrapper {
-  height: 300vh;
+  min-height: 300vh;
   background: linear-gradient(to bottom, #2a103b, #4a1d3f);
+  width: 100vw;
+  overflow-x: hidden;
 }
 
-/* Fullscreen scroll sections */
+/* Section layout */
 .section {
   height: 100vh;
   width: 100vw;
@@ -35,9 +37,18 @@ html.lenis body {
   justify-content: center;
   flex-direction: column;
   scroll-snap-align: start;
-  padding: 2rem;
+  padding: 2rem 0;
   box-sizing: border-box;
   color: white;
+}
+
+/* Fixed-width content */
+.content-box {
+  max-width: 900px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* Typography */
@@ -52,6 +63,7 @@ ul {
   font-size: 1.25rem;
   text-align: center;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 ul {

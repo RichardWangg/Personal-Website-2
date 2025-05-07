@@ -4,6 +4,7 @@ import { Element } from 'react-scroll';
 const Projects = () => (
   <Element name="projects" className="section">
     <motion.div
+      className="content-box"
       initial={{ opacity: 0, scale: 0.85 }}
       whileInView={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
