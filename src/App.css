@@ -63,7 +63,7 @@ html.lenis body {
   flex-direction: column;
   scroll-snap-align: start;
   box-sizing: border-box;
-  color: white;
+  color: c7c7c7;
 }
 
 .section-content {
@@ -170,20 +170,20 @@ ul li::before {
 }
 .home-subtitle {
   font-size: 1.25rem;
-  font-weight: 500; /* Adds slight thickness */
-  color: #dddddd; /* Less white */
+  font-weight: 500;
+  color: #c7c7c7;
   margin-bottom: 2rem;
   max-width: 37.5rem;
   text-align: left;
 }
 .home-icons {
   display: flex;
-  gap: 0.5rem; /* Adjust this value as needed */
+  gap: 0.5rem;
   justify-content: flex-start;
 }
 .home-icons a {
   font-size: 2.25rem;
-  color: #9ca0dd;
+  color: #ffffff;
   transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), color 0.5s ease;
   will-change: transform;
   transform-origin: center center;
@@ -475,8 +475,9 @@ ul li::before {
 }
 
 .footer-text {
-  font-size: 1.15rem;
-  color: #ccc;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #c7c7c7;
   max-width: 600px;
 }
 
@@ -510,7 +511,7 @@ ul li::before {
   display: flex;
   justify-content: center;
   margin-top: 2rem;
-  margin-bottom: 2rem; /* Adds space beneath the footer */
+  margin-bottom: 2rem;
 }
 
 .footer-credit {
