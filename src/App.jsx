@@ -36,8 +36,8 @@ function App() {
   return (
     <div className="gradient-wrapper">
       <Home />
-      <Experience />
       <Skills />
+      <Experience />
       <Projects />
       <Footer />
     </div>
