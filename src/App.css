@@ -535,4 +535,9 @@ ul li::before {
   .nav-links a {
     font-size: 0.85rem;
   }
+
+  .timeline-dot {
+    width: 1.4rem;
+    height: 0.68rem;
+  }
 }
