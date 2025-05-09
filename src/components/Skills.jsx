@@ -16,29 +16,25 @@ const skills = [
 
 const Skills = () => (
   <Element name="skills" className="section">
-    <motion.div
-      className="section-content"
-      initial={{ opacity: 0, y: 25 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
-      viewport={{ once: false, amount: 0.8 }}
-    >
-      <h1>Skills</h1>
-      <p className="home-subtitle">Here's a look at some of the technologies and tools I'm comfortable with:</p>
+    <div className="section-content">
+      <motion.div
+        initial={{ opacity: 0, y: 25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: false, amount: 0.8 }}
+      >
+        <h1>Skills</h1>
+        <p className="home-subtitle">Here's a look at some of the technologies and tools I'm comfortable with:</p>
+      </motion.div>
       <div className="skills-grid">
         {skills.map((skill, i) => (
-          <motion.div
-            className="skill-tag"
-            key={i}
-            whileHover={{ scale: 1.15 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
+          <div className="skill-tag" key={i}>
             <img src={skill.icon} alt={skill.name} className="skill-icon" />
             <span>{skill.name}</span>
-          </motion.div>
+          </div>
         ))}
       </div>
-    </motion.div>
+    </div>
   </Element>
 );
 
