@@ -410,6 +410,7 @@ ul li::before {
   padding: 0.2rem 0.5rem;
   border-radius: 4px;
   font-size: 0.75rem;
+  font-weight: 500;
 }
 
 .scroll-arrow {
@@ -532,7 +533,8 @@ ul li::before {
 
 .footer-credit {
   font-size: 0.85rem;
-  color: #888;
+  font-weight: 500;
+  color: #c7c7c7;
 }
 
 /* ------------------------------------- Mobile Tweaks ------------------------------------- */
