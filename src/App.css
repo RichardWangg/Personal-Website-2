@@ -117,10 +117,16 @@ ul li::before {
 
 .nav-logo {
   font-weight: bold;
-  color: inherit;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   font-family: "Rock Salt", cursive;
+  transition: opacity 0.3s ease;
+}
+.nav-logo:hover {
+  opacity: 0.6;
+  color: white;
+  transition: opacity 0.3s ease;
 }
 
 .nav-links {
@@ -253,13 +259,13 @@ ul li::before {
 
 .company-link {
   position: relative;
-  color: #7899fb;
+  color: inherit;
   font-weight: 600;
   text-decoration: none;
 }
 
 .company-link:hover {
-  color: #7899fb;
+  color: white;
 }
 
 .company-link::after {
@@ -269,7 +275,7 @@ ul li::before {
   bottom: -2px;
   width: 0%;
   height: 2px;
-  background-color: #7899fb;
+  background-color: #dddd;
   transition: width 0.3s ease;
 }
 
