@@ -24,7 +24,7 @@ const Skills = () => (
         viewport={{ once: false, amount: 0.8 }}
       >
         <h1>Skills</h1>
-        <p className="home-subtitle">Here's a look at some of the technologies and tools I'm comfortable with:</p>
+        <p className="home-subtitle">Here's a look at some of my favourite technologies and tools I use to build with that I'm passionate about</p>
       </motion.div>
       <div className="skills-grid">
         {skills.map((skill, i) => (
