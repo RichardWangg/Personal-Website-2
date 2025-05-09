@@ -262,10 +262,12 @@ ul li::before {
   color: inherit;
   font-weight: 600;
   text-decoration: none;
+  transition: width 0.3s ease;
 }
 
 .company-link:hover {
   color: white;
+  transition: width 0.3s ease;
 }
 
 .company-link::after {
@@ -490,11 +492,17 @@ ul li::before {
 .footer-email a,
 .footer-link a {
   position: relative;
-  color: white;
+  color: #dddd;
   text-decoration: none;
   font-size: 1.25rem;
   font-weight: 500;
   transition: opacity 0.3s ease;
+}
+
+.footer-email a:hover,
+.footer-link a:hover {
+  color: white;
+  transition: width 0.3s ease;
 }
 
 .footer-email a::after,
