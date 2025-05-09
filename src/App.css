@@ -34,7 +34,7 @@ html.lenis body {
     #2a103b 100%
   );
   background-size: 400% 400%;
-  animation: gradientShift 7s ease infinite;
+  animation: gradientShift 10s ease infinite;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -63,7 +63,7 @@ html.lenis body {
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 50rem;
   width: 100%;
   padding: 0 1.5rem;
   margin: 0 auto;
@@ -108,6 +108,28 @@ html.lenis body {
   cursor: pointer;
 }
 
+.navbar {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+.navbar.show {
+  transform: translateY(0);
+}
+
+.navbar.blur {
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+}
+
+.navbar.transparent {
+  background-color: transparent;
+  backdrop-filter: none;
+}
+
 /* Typography */
 h1 {
   font-size: 3rem;
@@ -118,7 +140,7 @@ p,
 ul {
   font-size: 1.25rem;
   text-align: left;
-  max-width: 600px;
+  max-width: 37.5rem;
   margin: 0;
 }
 ul {
@@ -144,7 +166,7 @@ ul li::before {
   font-weight: 500; /* Adds slight thickness */
   color: #dddddd; /* Less white */
   margin-bottom: 2rem;
-  max-width: 600px;
+  max-width: 37.5rem;
   text-align: left;
 }
 .home-icons {
@@ -165,8 +187,8 @@ ul li::before {
 }
 
 .profile-image {
-  width: 130px;
-  height: 130px;
+  width: 8.125rem;
+  height: 8.125rem;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -219,7 +241,7 @@ ul li::before {
 .experience-item p {
   font-size: 1.1rem;
   color: #cccccc;
-  max-width: 700px;
+  max-width: 43.75rem;
 }
 
 .company-link {
@@ -257,7 +279,7 @@ ul li::before {
   top: 0;
   left: 5px;
   width: 2px;
-  height: 92.5%;
+  height: 90%;
   background-color: #666;
   z-index: 0;
   display: flex;
@@ -277,10 +299,10 @@ ul li::before {
 }
 
 .timeline-dot {
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
   background-color: #C9C9CB;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   z-index: 2;
 }
 
@@ -293,3 +315,197 @@ ul li::before {
   color: #bbbbbb;
   font-weight: 500;
 }
+
+/* Projects Section */
+.carousel-scroll-wrapper {
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.project-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  max-width: 100%;
+  scrollbar-width: none;
+}
+.project-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.project-mini-card {
+  flex: 0 0 auto;
+  width: 200px;
+  background: #1e1e2f;
+  border-radius: 8px;
+  padding: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.project-link,
+.project-link:visited,
+.project-link:hover,
+.project-link:active,
+.project-link:focus {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.project-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+  width: 100%;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  background-color: #2a2a3b;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.scroll-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0.5rem;
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), color 0.3s ease;
+}
+.scroll-arrow:focus {
+  outline: none;
+}
+.scroll-arrow.left {
+  left: -1.5rem;
+}
+.scroll-arrow.right {
+  right: -1.5rem;
+}
+.scroll-arrow:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.skill-tag {
+  background-color: #2a2a3b;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.skill-icon {
+  border-radius: 0.9rem;
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+.footer-text {
+  font-size: 1.15rem;
+  color: #ccc;
+  max-width: 600px;
+}
+
+.footer-email a,
+.footer-link a {
+  position: relative;
+  color: #7899fb;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-email a::after,
+.footer-link a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #7899fb;
+  transition: width 0.3s ease;
+}
+
+.footer-email a:hover::after,
+.footer-link a:hover::after {
+  width: 100%;
+}
+
+.footer-credit-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; /* Adds space beneath the footer */
+}
+
+.footer-credit {
+  font-size: 0.85rem;
+  color: #888;
+}
+
