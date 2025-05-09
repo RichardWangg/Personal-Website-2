@@ -37,7 +37,7 @@ const Home = () => {
         initial={{ opacity: 0, x: -25 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        viewport={{ once: false, amount: 0.8 }}
+        viewport={{ once: false, amount: 0.6 }}
       >
         <img src="/profile3.jpg" alt="Profile" className="profile-image" />
         <h1 className="home-title">Hi, I'm Richard! <span className="wave-emoji">👋</span></h1>
