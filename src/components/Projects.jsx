@@ -2,36 +2,40 @@ import { motion } from 'framer-motion';
 import { Element } from 'react-scroll';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useRef } from 'react';
+import gameGif from '../assets/game_gif.gif'
+import saline from '../assets/salinity_pic.jpg'
+import musicGif from '../assets/music_gif.gif'
+import systolic from '../assets/systolic.png'
 
 const projectData = [
   {
-    title: "Portfolio Website",
-    image: "/profile3.jpg",
-    tags: ["React", "CSS", "Framer Motion"],
+    title: "Python Game",
+    image: gameGif,
+    tags: ["Python", "Pygame", "PyTorch"],
     url: "https://github.com/YOUR_USERNAME/portfolio-website",
   },
   {
-    title: "Weather App",
-    image: "/profile3.jpg",
-    tags: ["React", "API", "JavaScript"],
+    title: "Salinity Tester",
+    image: saline,
+    tags: ["C/C++", "STM32 Microcontroller"],
     url: "https://github.com/YOUR_USERNAME/weather-app",
   },
   {
-    title: "Todo Tracker",
+    title: "Portfolio Website",
     image: "/profile3.jpg",
-    tags: ["React", "Firebase", "Tailwind"],
+    tags: ["React", "JavaScript", "CSS"],
     url: "https://github.com/YOUR_USERNAME/todo-tracker",
   },
   {
-    title: "Game of Life",
-    image: "/profile3.jpg",
-    tags: ["C++", "SFML", "Algorithms"],
+    title: "Music Website",
+    image: musicGif,
+    tags: ["React", "Node.js", "JavaScript"],
     url: "https://github.com/YOUR_USERNAME/game-of-life",
   },
   {
-    title: "Chat App",
-    image: "/images/chat-app.png",
-    tags: ["Node.js", "Socket.IO", "React"],
+    title: "Systolic Array",
+    image: systolic,
+    tags: ["SystemVerilog", "Hardware", "GTKWave"],
     url: "https://github.com/YOUR_USERNAME/chat-app",
   },
 ];
