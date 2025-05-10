@@ -8,7 +8,7 @@ import nodeLogo from '../assets/node.png';
 import tsLogo from '../assets/ts.svg';
 import sqlLogo from '../assets/sql.png';
 import awsLogo from '../assets/aws.png';
-import firebaseLogo from '../assets/firebase.png'
+import firebaseLogo from '../assets/firebase.png';
 
 const skills = [
   { name: "Python", icon: pythonLogo, url: "https://www.python.org/" },

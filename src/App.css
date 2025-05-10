@@ -32,13 +32,13 @@ html.lenis body {
   background: linear-gradient(
     -45deg,
     #2a103b 0%,
-    #3b1745 25%,
+    #3b1745 20%,
     #4a1d3f 50%,
-    #3b1745 75%,
+    #3b1745 80%,
     #2a103b 100%
   );
   background-size: 400% 400%;
-  animation: gradientShift 10s ease infinite;
+  animation: gradientShift 5s ease infinite;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -355,7 +355,7 @@ ul li::before {
 .project-mini-card {
   flex: 0 0 auto;
   width: 200px;
-  background: #1e1e2f;
+  background: rgba(44, 36, 60, 0.85);
   border-radius: 8px;
   padding: 0.75rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -424,6 +424,8 @@ ul li::before {
   border: none;
   outline: none;
   color: white;
+  opacity: 0.75;
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6));
   font-size: 2rem;
   cursor: pointer;
   z-index: 10;
@@ -441,6 +443,7 @@ ul li::before {
 }
 .scroll-arrow:hover {
   transform: translateY(-50%) scale(1.2);
+  opacity: 1;
 }
 
 /* ------------------------------------- Skills ------------------------------------- */
@@ -457,7 +460,7 @@ ul li::before {
 }
 
 .skill-tag {
-  background-color: #2a2a3b;
+  background-color: rgba(44, 36, 60, 0.85);
   color: #fff;
   padding: 0.75rem;
   border-radius: 12px;
