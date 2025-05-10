@@ -44,7 +44,7 @@ const Home = () => {
         <h1 className="home-title">Hi, I'm Richard! <span className="wave-emoji">👋</span></h1>
         <p className="home-subtitle">
           I’m a Software Engineer and 3rd Year Student Studying Computer Engineering at the University of Waterloo.
-          Currently Seeking Fall 2025 Internship Opportunities — let’s get in touch!
+          Currently Seeking Fall 2025 Internship Opportunities. Let’s get in touch!
         </p>
         <div className="home-icons">
           <a href="https://github.com/RichardWangg" target="_blank" rel="noopener noreferrer"><FaGithub /></a>

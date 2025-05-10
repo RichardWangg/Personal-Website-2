@@ -28,7 +28,7 @@ const Skills = () => (
     <div className="section-content">
       <h1>Skills</h1>
       <p className="home-subtitle">
-        Here's a look at some of my favourite technologies and tools I use to build with that I'm passionate about
+        Here are some of the technologies and tools that I'm most passionate about, which I regularly use to build out my ideas
       </p>
       <div className="skills-grid">
         {skills.map((skill, i) => (
