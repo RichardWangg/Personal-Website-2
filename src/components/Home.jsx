@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-scroll';
+import profile from '../assets/profile.jpg';
 
 const Home = () => {
   const [showNavbar, setShowNavbar] = useState(true);
@@ -39,7 +40,7 @@ const Home = () => {
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: false, amount: 0.6 }}
       >
-        <img src="/profile3.jpg" alt="Profile" className="profile-image" />
+        <img src={profile} alt="Profile" className="profile-image" />
         <h1 className="home-title">Hi, I'm Richard! <span className="wave-emoji">👋</span></h1>
         <p className="home-subtitle">
           I’m a Software Engineer and 3rd Year Student Studying Computer Engineering at the University of Waterloo.
