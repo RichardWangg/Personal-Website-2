@@ -6,4 +6,6 @@ Email: r58wang@uwaterloo.ca
 npm install <br>
 npm run dev<br>
 
-<span style="font-size: 2rem; font-weight: bold;">This site was built on React + Vite</span>
+<span style="font-size: 2rem; font-weight: bold;">This site was built on React + Vite</span><br>
+
+The site is live! To visit go here: https://richardwangg.com/
