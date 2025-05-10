@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import { Link } from 'react-scroll';
-import profile from '../assets/profile.jpg';
+import profile from '../assets/profile2.jpg';
 
 const Home = () => {
   const [showNavbar, setShowNavbar] = useState(true);
