@@ -8,7 +8,7 @@ const experienceData = [
     url: 'https://www.fordpro.com/en-us/',
     date: 'May 2025 – August 2025',
     description:
-      'Worked on responsive web UI components using React and Tailwind CSS. Improved performance and accessibility for production applications.',
+      'Building front-end and back-end solutions for the Ford Pro website and internal tools using JavaScript, TypeScript, React, and Node.js',
   },
   {
     title: 'Software Developer',
@@ -16,7 +16,7 @@ const experienceData = [
     url: 'https://www.ford.ca/',
     date: 'January 2025 – April 2025',
     description:
-      'Developed and maintained open-source projects, contributing to the React ecosystem. Enhanced UI/UX and fixed issues across various repositories.',
+      'Automated data workflows and built test infrastructure using Python, C++, and TypeScript to support vehicle diagnostics and software validation',
   },
   {
     title: 'Software Developer',
@@ -24,7 +24,7 @@ const experienceData = [
     url: 'https://www.bankofcanada.ca/',
     date: 'May 2024 – August 2024',
     description:
-      'Worked on cloud deployment tools, focusing on optimization and integration of real-time applications. Contributed to the open-source ecosystem with custom features.',
+      'Worked across Python, PHP, and MySQL to improve automation, optimize APIs, and build custom frontend components for BoC Sites',
   },
   {
     title: 'Full-Stack Developer',
@@ -32,7 +32,7 @@ const experienceData = [
     url: 'https://reliablyme.com/',
     date: 'January 2024 – April 2024',
     description:
-      'Worked on cloud deployment tools, focusing on optimization and integration of real-time applications. Contributed to the open-source ecosystem with custom features.',
+      'Improved backend stability, rebuilt chatbot features using OpenAI APIs, and revamped admin console in React to enhance performance and UX',
   },
 ]
 
