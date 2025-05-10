@@ -2,16 +2,16 @@ import { motion } from 'framer-motion';
 import { Element } from 'react-scroll';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useRef } from 'react';
-import gameGif from '../assets/game_gif.gif';
+import game from '../assets/game.jpg';
 import saline from '../assets/salinity_pic.jpg';
 import portfolio from '../assets/portfolio.jpg';
-import musicGif from '../assets/music_gif.gif';
+import music from '../assets/music.jpg';
 import systolic from '../assets/systolic.png';
 
 const projectData = [
   {
     title: "Python Game",
-    image: gameGif,
+    image: game,
     tags: ["Python", "Pygame", "PyTorch"],
     url: "https://github.com/RichardWangg/1v1-Shooter-Game",
   },
@@ -29,7 +29,7 @@ const projectData = [
   },
   {
     title: "Music Website",
-    image: musicGif,
+    image: music,
     tags: ["React", "Node.js", "JavaScript"],
     url: "https://github.com/RichardWangg/Music-Charting-Website",
   },
