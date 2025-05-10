@@ -25,8 +25,8 @@ const Home = () => {
             Richard Wang
           </Link>
           <div className="nav-links">
-            <Link to="experience" smooth={true} duration={600} offset={-50}>Experience</Link>
             <Link to="skills" smooth={true} duration={600} offset={-50}>Skills</Link>
+            <Link to="experience" smooth={true} duration={600} offset={-50}>Experience</Link>
             <Link to="projects" smooth={true} duration={600} offset={-50}>Projects</Link>
           </div>
         </div>
@@ -46,9 +46,9 @@ const Home = () => {
           Currently Seeking Fall 2025 Internship Opportunities — let’s get in touch!
         </p>
         <div className="home-icons">
-          <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="mailto:your.email@example.com"><FaEnvelope /></a>
+          <a href="https://github.com/RichardWangg" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/richard-wang-15230725b" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="mailto:r58wang@uwaterloo.ca"><FaEnvelope /></a>
         </div>
       </motion.div>
     </div>
