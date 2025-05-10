@@ -2,16 +2,14 @@ import { motion } from 'framer-motion';
 import { Element } from 'react-scroll';
 
 const skills = [
-  { name: "JavaScript", icon: "/profile3.jpg" },
-  { name: "React", icon: "/icons/react.png" },
-  { name: "Node.js", icon: "/icons/node.png" },
-  { name: "Python", icon: "/icons/python.png" },
-  { name: "C++", icon: "/icons/cpp.png" },
-  { name: "Git", icon: "/icons/git.png" },
-  { name: "Tailwind CSS", icon: "/icons/tailwind.png" },
-  { name: "Firebase", icon: "/icons/firebase.png" },
+  { name: "Python", icon: "/Python-Logo.png" },
+  { name: "JavaScript", icon: "/JavaScript-Logo.png" },
+  { name: "C++", icon: "/CPP-Logo.png" },
+  { name: "C", icon: "/C-Logo.png" },
+  { name: "React", icon: "/React-Logo.png" },
+  { name: "Node.js", icon: "/node.png" },
+  { name: "TypeScript", icon: "/ts.svg" },
   { name: "SQL", icon: "/icons/sql.png" },
-  { name: "REST APIs", icon: "/icons/api.png" },
 ];
 
 const Skills = () => (
