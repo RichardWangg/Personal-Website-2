@@ -2,41 +2,42 @@ import { motion } from 'framer-motion';
 import { Element } from 'react-scroll';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useRef } from 'react';
-import gameGif from '../assets/game_gif.gif'
-import saline from '../assets/salinity_pic.jpg'
-import musicGif from '../assets/music_gif.gif'
-import systolic from '../assets/systolic.png'
+import gameGif from '../assets/game_gif.gif';
+import saline from '../assets/salinity_pic.jpg';
+import portfolio from '../assets/portfolio.jpg';
+import musicGif from '../assets/music_gif.gif';
+import systolic from '../assets/systolic.png';
 
 const projectData = [
   {
     title: "Python Game",
     image: gameGif,
     tags: ["Python", "Pygame", "PyTorch"],
-    url: "https://github.com/YOUR_USERNAME/portfolio-website",
+    url: "https://github.com/RichardWangg/1v1-Shooter-Game",
   },
   {
     title: "Salinity Tester",
     image: saline,
     tags: ["C/C++", "STM32 Microcontroller"],
-    url: "https://github.com/YOUR_USERNAME/weather-app",
+    url: "https://github.com/RichardWangg/Salinity-Tester",
   },
   {
     title: "Portfolio Website",
-    image: "/profile3.jpg",
+    image: portfolio,
     tags: ["React", "JavaScript", "CSS"],
-    url: "https://github.com/YOUR_USERNAME/todo-tracker",
+    url: "https://github.com/RichardWangg/Personal-Website-2",
   },
   {
     title: "Music Website",
     image: musicGif,
     tags: ["React", "Node.js", "JavaScript"],
-    url: "https://github.com/YOUR_USERNAME/game-of-life",
+    url: "https://github.com/RichardWangg/Music-Charting-Website",
   },
   {
     title: "Systolic Array",
     image: systolic,
     tags: ["SystemVerilog", "Hardware", "GTKWave"],
-    url: "https://github.com/YOUR_USERNAME/chat-app",
+    url: "https://github.com/RichardWangg/System-Verilog-Systolic-Array-Project",
   },
 ];
 
