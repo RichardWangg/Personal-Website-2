@@ -336,7 +336,7 @@ ul li::before {
 .carousel-scroll-wrapper {
   position: relative;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .project-scroll-container {

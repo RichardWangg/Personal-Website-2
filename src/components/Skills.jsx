@@ -1,4 +1,5 @@
 import { Element } from 'react-scroll';
+import { motion } from 'framer-motion'; // Import motion
 import pythonLogo from '../assets/Python-Logo.png';
 import jsLogo from '../assets/JavaScript-Logo.png';
 import cppLogo from '../assets/CPP-Logo.png';
@@ -26,10 +27,23 @@ const skills = [
 const Skills = () => (
   <Element name="skills" className="section">
     <div className="section-content">
-      <h1>Skills</h1>
-      <p className="home-subtitle">
+      <motion.h1
+        initial={{ opacity: 0, y: 25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: false, amount: 0.8 }}
+      >
+        Skills
+      </motion.h1>
+      <motion.p
+        className="home-subtitle"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
+        viewport={{ once: false, amount: 0.8 }}
+      >
         Here are some of the technologies and tools that I'm most passionate about, which I regularly use to build out my ideas
-      </p>
+      </motion.p>
       <div className="skills-grid">
         {skills.map((skill, i) => (
           <a
