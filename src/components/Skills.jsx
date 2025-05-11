@@ -42,7 +42,7 @@ const Skills = () => (
         transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
         viewport={{ once: false, amount: 0.8 }}
       >
-        Here are some of the technologies and tools that I'm most passionate about, which I regularly use to build out my ideas
+        Here are some of the technologies and tools that I'm most passionate about, which I regularly use to build out my ideas.
       </motion.p>
       <div className="skills-grid">
         {skills.map((skill, i) => (

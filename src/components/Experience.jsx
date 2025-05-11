@@ -8,7 +8,7 @@ const experienceData = [
     url: 'https://www.fordpro.com/en-us/',
     date: 'May 2025 – August 2025',
     description:
-      'Building front-end and back-end solutions for the Ford Pro website and internal tools using JavaScript, TypeScript, React, and Node.js',
+      'Building front-end and back-end solutions for the Ford Pro website and internal tools using JavaScript, TypeScript, React, and Node.js.',
   },
   {
     title: 'Software Developer',
@@ -16,7 +16,7 @@ const experienceData = [
     url: 'https://www.ford.ca/',
     date: 'Sep 2024 – Dec 2024',
     description:
-      'Automated data workflows and built test infrastructure using Python, C++, and TypeScript to support vehicle diagnostics and software validation',
+      'Automated data workflows and built test infrastructure using Python, C++, and TypeScript to support vehicle diagnostics and software validation.',
   },
   {
     title: 'Software Developer',
@@ -24,7 +24,7 @@ const experienceData = [
     url: 'https://www.bankofcanada.ca/',
     date: 'Jan 2024 – April 2024',
     description:
-      'Worked across Python, PHP, and MySQL to improve automation, optimize APIs, and build custom frontend components for BoC Sites',
+      'Worked across Python, PHP, and MySQL to improve automation, optimize APIs, and build custom frontend components for BoC Sites.',
   },
   {
     title: 'Full-Stack Developer',
@@ -32,7 +32,7 @@ const experienceData = [
     url: 'https://reliablyme.com/',
     date: 'May 2023 – August 2023',
     description:
-      'Improved backend stability, rebuilt chatbot features using OpenAI APIs, and revamped admin console in React to enhance performance and UX',
+      'Improved backend stability, rebuilt chatbot features using OpenAI APIs, and revamped admin console in React to enhance performance and UX.',
   },
 ]
 
