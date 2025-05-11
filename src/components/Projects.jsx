@@ -64,8 +64,7 @@ const Projects = () => {
       >
         <h1>Projects</h1>
         <p className="home-subtitle">
-          I’m a Software Engineer and 3rd Year Student Studying Computer Engineering at the University of Waterloo.
-          Currently Seeking Fall 2025 Internship Opportunities — let’s get in touch!
+          Take a look at some projects I've worked on. They've been great opportunities to explore new ideas, build cool stuff, and keep learning along the way.
         </p>
 
         <div className="carousel-scroll-wrapper">

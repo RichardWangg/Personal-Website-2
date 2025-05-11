@@ -14,7 +14,7 @@ const experienceData = [
     title: 'Software Developer',
     company: 'Ford',
     url: 'https://www.ford.ca/',
-    date: 'January 2025 – April 2025',
+    date: 'Sep 2024 – Dec 2024',
     description:
       'Automated data workflows and built test infrastructure using Python, C++, and TypeScript to support vehicle diagnostics and software validation',
   },
@@ -22,7 +22,7 @@ const experienceData = [
     title: 'Software Developer',
     company: 'Bank of Canada',
     url: 'https://www.bankofcanada.ca/',
-    date: 'May 2024 – August 2024',
+    date: 'Jan 2024 – April 2024',
     description:
       'Worked across Python, PHP, and MySQL to improve automation, optimize APIs, and build custom frontend components for BoC Sites',
   },
@@ -30,7 +30,7 @@ const experienceData = [
     title: 'Full-Stack Developer',
     company: 'ReliablyME',
     url: 'https://reliablyme.com/',
-    date: 'January 2024 – April 2024',
+    date: 'May 2023 – August 2023',
     description:
       'Improved backend stability, rebuilt chatbot features using OpenAI APIs, and revamped admin console in React to enhance performance and UX',
   },
