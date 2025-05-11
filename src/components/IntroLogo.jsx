@@ -9,6 +9,7 @@ const IntroLogo = ({ onAnimationComplete }) => {
 
   return (
     <motion.div
+      className="intro-logo"
       initial={{ top: '50%', left: '50%', x: '-50%', y: '-50%', opacity: 0 }}
       animate={{
         top: ['50%', '50%', '-20%'],

@@ -563,6 +563,17 @@ ul li::before {
   color: #c7c7c7;
 }
 
+/* ------------------------------------- Intro Logo ------------------------------------- */
+.intro-logo {
+  position: fixed;
+  font-family: 'Rock Salt', cursive;
+  font-size: 2rem;
+  color: white;
+  z-index: 1000;
+  pointer-events: none;
+  text-align: center;
+}
+
 /* ------------------------------------- Mobile Tweaks ------------------------------------- */
 @media (max-width: 600px) {
   .nav-logo {
