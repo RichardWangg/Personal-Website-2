@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const IntroLogo = ({ onAnimationComplete }) => {
   useEffect(() => {
-    const timer = setTimeout(onAnimationComplete, 2500);
+    const timer = setTimeout(onAnimationComplete, 2200);
     return () => clearTimeout(timer);
   }, [onAnimationComplete]);
 
