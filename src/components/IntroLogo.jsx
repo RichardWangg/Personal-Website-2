@@ -17,7 +17,7 @@ const IntroLogo = ({ onAnimationComplete }) => {
       }}
       transition={{
         top: { duration: 1.25, times: [0, 0.5, 1], ease: 'easeInOut', delay: 1 },
-        opacity: { duration: 3, times: [0, 0.2, 0.8, 1], ease: 'easeInOut' },
+        opacity: { duration: 2.15, times: [0, 0.2, 0.8, 1], ease: 'easeInOut' },
       }}
       style={{
         position: 'fixed',
