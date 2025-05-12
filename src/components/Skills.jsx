@@ -30,8 +30,8 @@ const Skills = () => (
       <motion.h1
         initial={{ opacity: 0, y: 25 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut' }}
-        viewport={{ once: false, amount: 0.8 }}
+        transition={{ duration: 0.3, ease: 'easeOut' }}
+        viewport={{ once: false, amount: 0.6 }}
       >
         Skills
       </motion.h1>
@@ -39,8 +39,8 @@ const Skills = () => (
         className="home-subtitle"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
-        viewport={{ once: false, amount: 0.8 }}
+        transition={{ duration: 0.3, ease: 'easeOut', delay: 0.1 }}
+        viewport={{ once: false, amount: 0.6 }}
       >
         Here are some of the technologies and tools that I'm most passionate about, which I regularly use to build out my ideas.
       </motion.p>
