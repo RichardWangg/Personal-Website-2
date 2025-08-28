@@ -59,7 +59,7 @@ const Experience = () => (
             >
               <div className="timeline-dot" />
               <div className="timeline-content">
-                <h2>
+                <h2 style={{ color: "#ffffff" }}>
                   {exp.title}{' '}
                   <a
                     href={exp.url}
@@ -71,7 +71,7 @@ const Experience = () => (
                   </a>
                 </h2>
                 <h3 className="timeline-date">{exp.date}</h3>
-                <p>{exp.description}</p>
+                <p style={{color: "#cccccc"}}>{exp.description}</p>
               </div>
             </motion.div>
           ))}

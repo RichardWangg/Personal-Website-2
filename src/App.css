@@ -78,6 +78,7 @@ h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: left;
+  color: white;
 }
 p,
 ul {
@@ -170,6 +171,7 @@ ul li::before {
   height: 100vh;
 }
 .home-title {
+  color: white;
   font-size: 3rem;
   margin-bottom: 1rem;
   text-align: left;
