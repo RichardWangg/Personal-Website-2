@@ -8,7 +8,7 @@ const experienceData = [
     url: 'https://www.fordpro.com/en-us/',
     date: 'May 2025 – August 2025',
     description:
-      'Building front-end and back-end solutions for the Ford Pro website and internal tools using JavaScript, TypeScript, React, and Node.js.',
+      'Developed new features such as feature flagging and SEO crawling, for the Ford Pro Gateway Console, a transaction-based platform for managing configuration, content, and deployments in a micro-frontend architecture, used by over 90 product teams.',
   },
   {
     title: 'Software Developer',
