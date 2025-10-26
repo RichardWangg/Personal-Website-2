@@ -4,6 +4,14 @@ import { Element } from 'react-scroll'
 const experienceData = [
   {
     title: 'Software Engineering',
+    company: 'Augment',
+    url: 'https://www.goaugment.com/',
+    date: 'Jan 2026 – April 2026',
+    description:
+      'Incoming Software Engineering Intern at Augment, a startup using AI to streamline freight and logistics operations.',
+  },
+  {
+    title: 'Software Engineering',
     company: 'Ford Pro',
     url: 'https://www.fordpro.com/en-us/',
     date: 'May 2025 – August 2025',
