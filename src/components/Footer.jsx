@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="section-content footer-content">
       <h1>Let's connect!</h1>
       <p className="footer-text">
-        I would love for you to reach out and continue the conversation further — looking forward to meeting you soon...
+        I would love for you to reach out and continue the conversation further, looking forward to meeting you soon!
       </p>
       <p className="footer-email">
         <a href="mailto:r58wang@uwaterloo.ca">r58wang@uwaterloo.ca</a>
