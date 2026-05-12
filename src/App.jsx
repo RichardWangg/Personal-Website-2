@@ -46,8 +46,8 @@ function App() {
         transition={{ duration: 1 }}
       >
         <Home />
-        <Skills />
         <Experience />
+        <Skills />
         <Projects />
         <Footer />
       </motion.div>

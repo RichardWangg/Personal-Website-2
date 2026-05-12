@@ -26,8 +26,8 @@ const Home = () => {
             Richard Wang
           </Link>
           <div className="nav-links">
-            <Link to="skills" smooth={true} duration={600} offset={-50}>Skills</Link>
             <Link to="experience" smooth={true} duration={600} offset={-50}>Experience</Link>
+            <Link to="skills" smooth={true} duration={600} offset={-50}>Skills</Link>
             <Link to="projects" smooth={true} duration={600} offset={-50}>Projects</Link>
           </div>
         </div>

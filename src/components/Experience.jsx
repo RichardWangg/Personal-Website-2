@@ -8,7 +8,7 @@ const experienceData = [
     url: 'https://www.goaugment.com/',
     date: 'Jan 2026 – April 2026',
     description:
-      'Incoming Software Engineering Intern at Augment, a startup using AI to streamline freight and logistics operations.',
+      'Extended Augie\'s (AI agent) carrier-selection workflow to support end-to-end load booking, cutting out rep involvement that was previously needed in the workflow, and built the underlying agent tooling and event-driven infrastructure. Also designed and implemented the full pipeline for a new trucklist workflow for Augie, including an LLM email classifier/extractor, new tooling, TMS sync and load-matching infrastructure, and event-driven agent re-awakening.'
   },
   {
     title: 'Software Engineering',
