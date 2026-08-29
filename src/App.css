@@ -38,7 +38,7 @@ html.lenis body {
     #2a103b 100%
   );
   background-size: 400% 400%;
-  animation: gradientShift 5s ease infinite;
+  animation: gradientShift 4s ease infinite;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -285,6 +285,15 @@ ul li::before {
 }
 
 .company-link:hover::after {
+  width: 100%;
+}
+
+/* Hovering anywhere in an experience block underlines its company link */
+.timeline-grid:hover .company-link {
+  color: white;
+}
+
+.timeline-grid:hover .company-link::after {
   width: 100%;
 }
 

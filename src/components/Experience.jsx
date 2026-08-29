@@ -4,11 +4,19 @@ import { Element } from 'react-scroll'
 const experienceData = [
   {
     title: 'Software Engineering',
+    company: 'Radar',
+    url: 'https://radar.com/',
+    date: 'Sep 2026 – Dec 2026',
+    description:
+      'Incoming at Radar, a location data platform powering geofencing, maps, and tracking APIs.'
+  },
+  {
+    title: 'Software Engineering',
     company: 'Augment',
     url: 'https://www.goaugment.com/',
     date: 'Jan 2026 – April 2026',
     description:
-      'Extended Augie\'s (AI agent) carrier-selection workflow to support end-to-end load booking, cutting out rep involvement that was previously needed in the workflow, and built the underlying agent tooling and event-driven infrastructure. Also designed and implemented the full pipeline for a new trucklist workflow for Augie, including an LLM email classifier/extractor, new tooling, TMS sync and load-matching infrastructure, and event-driven agent re-awakening.'
+      'Extended Augie (AI agent) from carrier selection to end-to-end load booking, cutting out rep involvement, and designed a new trucklist workflow with an LLM email classifier, TMS sync, and load matching, plus the agent tooling and event-driven infrastructure behind both, in TypeScript and Python.'
   },
   {
     title: 'Software Engineering',
@@ -16,7 +24,7 @@ const experienceData = [
     url: 'https://www.fordpro.com/en-us/',
     date: 'May 2025 – August 2025',
     description:
-      'Developed new features such as feature flagging and SEO crawling, for the Ford Pro Gateway Console, a transaction-based platform for managing configuration, content, and deployments in a micro-frontend architecture, used by over 90 product teams.',
+      'Developed feature flagging and SEO crawling for the Ford Pro Gateway Console, a transaction-based platform managing configuration, content, and deployments across a micro-frontend architecture, using React, TypeScript, and Node.js/Express on GCP, serving 90+ product teams.',
   },
   {
     title: 'Software Developer',
